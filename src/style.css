@@ -6,8 +6,8 @@
 }
 
 h1 {
-    font-size: 48px !important;
     font-family: 'Playfair Display', serif;
+    font-size: 48px !important;
 }
 
 h2 {
@@ -31,16 +31,16 @@ hr {
 }
 
 .returnButton {
-    display: flex !important;
     align-items: center;
-    width: 56px;
-    height: 56px;
-    bottom: 32px;
-    right: 48px;
     border-radius: 100% !important;
-    z-index: 1000;
+    bottom: 32px;
+    display: flex !important;
+    height: 56px;
     opacity: 0;
+    right: 48px;
     transition: opacity 0.2s ease-in-out !important;
+    width: 56px;
+    z-index: 1000;
 }
 
 .returnButton.visible {

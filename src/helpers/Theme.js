@@ -1,25 +1,25 @@
 export const lightTheme = {
-    background: '#DCF2F1',
-    backgroundPrincipal: '#365486',
-    color: '#000000 !important',
-    colorLinks: '#7FC7D9',
-    borderColorLinks: '#7FC7D9',
-    colorLinksHover: '#DCF2F1 !important',
-    backgroundCard: '#0F1035 !important',
-    backgroundTimeline: '#B4D4FF',
-    arrowTimeline: '7px solid  #B4D4FF',
-    toggleTheme: '#000',
-  };
-  
-  export const darkTheme = {
-    background: '#18061f',
-    backgroundPrincipal: '#331D2C',
-    color: '#ffffff !important',
-    colorLinks: '#A78295',
-    borderColorLinks: '#A78295',
-    colorLinksHover: '#960075ce !important',
-    backgroundCard: '#3F2E3E !important',
-    backgroundTimeline: '#3F2E3E',
-    arrowTimeline: '7px solid  #3F2E3E',
-    toggleTheme: 'yellow',
-  };
+  arrowTimeline: '7px solid  #B4D4FF',
+  background: '#DCF2F1',
+  backgroundCard: '#0F1035 !important',
+  backgroundPrincipal: '#365486',
+  backgroundTimeline: '#B4D4FF',
+  borderColorLinks: '#7FC7D9',
+  color: '#000000 !important',
+  colorLinks: '#7FC7D9',
+  colorLinksHover: '#DCF2F1 !important',
+  toggleTheme: '#000',
+};
+
+export const darkTheme = {
+  arrowTimeline: '7px solid #333333',
+  background: '#1A1A1A',
+  backgroundCard: '#262626 !important',
+  backgroundPrincipal: '#121212',
+  backgroundTimeline: '#333333',
+  borderColorLinks: '#6C757D',
+  color: '#FFFFFF !important',
+  colorLinks: '#6C757D',
+  colorLinksHover: '#4A4A4A !important',
+  toggleTheme: '#FFD700',
+};
