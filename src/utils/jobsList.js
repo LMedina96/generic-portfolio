@@ -2,7 +2,7 @@ export const jobs = [
     {
         date: 'Mar. 2022 - Presente',
         title: 'dataAnalyst',
-        subTitle: 'Nación Servicios',
+        subTitle: 'Enterprise Inc.',
         tasks: [
             'requirementsGathering',
             'dataInvestigationAnalysis',
@@ -15,7 +15,7 @@ export const jobs = [
     {
         date: 'Abr. 2023 - Presente',
         title: 'tutorAndTeacher',
-        subTitle: 'Coderhouse / Gurí',
+        subTitle: 'Prestigious University',
         tasks: [
             'facilitateTheoreticalPracticalClasses',
             'encouragePracticalLearning',
@@ -27,7 +27,7 @@ export const jobs = [
     {
         date: 'Oct. 2021 - Mar. 2022',
         title: 'biConsultant',
-        subTitle: 'SEIDOR Analytics',
+        subTitle: 'Company Analytics',
         tasks: [
             'technicalRequirementsImplementation',
             'businessUnderstanding',
@@ -39,7 +39,7 @@ export const jobs = [
     {
         date: 'Jun. 2019 - Oct. 2021',
         title: 'biConsultant',
-        subTitle: 'Data IQ',
+        subTitle: 'Datalitycs IQ',
         tasks: [
             'technicalRequirementsImplementation',
             'businessUnderstanding',
@@ -53,7 +53,7 @@ export const jobs = [
     {
         date: 'Nov. 2017 - Feb. 2019',
         title: 'itProcessAuditor',
-        subTitle: 'PwC Argentina',
+        subTitle: 'PEM American',
         tasks: [
             'billingReprocessing',
             'itGeneralControlsReview',

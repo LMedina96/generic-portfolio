@@ -19,8 +19,8 @@ const TitleAnimation = () => {
       <div className="row flex justify-content-around">
         <ToggleButton/>
         <Toggle
-          leftLabel={<label className="form-check-label" htmlFor="flexSwitchCheckChecked"><Icon icon="flag:ar-4x3" width="24" height="23" /></label>}
-          rightLabel={<label className="form-check-label" htmlFor="flexSwitchCheckChecked"><Icon icon="flagpack:gb-ukm" width="24" height="23" /></label>}
+          leftLabel={<label className="form-check-label" htmlFor="flexSwitchCheckChecked"><Icon icon="flagpack:gb-ukm" width="24" height="23" /></label>}
+          rightLabel={<label className="form-check-label" htmlFor="flexSwitchCheckChecked"><Icon icon="flag:ar-4x3" width="24" height="23" /></label>}
           handleToggle={() => setLanguage(i18n.language === 'es' ? 'en' : 'es')}
         />
       </div>

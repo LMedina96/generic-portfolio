@@ -1,7 +1,11 @@
 import { Icon } from "@iconify/react"
 import '../styles/portfolioCardStyle.css'
+import { useTranslation } from "react-i18next";
 
 const PortfolioCard = ({ proyect: { img, title, description, technologies } }) => {
+
+    const { t } = useTranslation()
+
     return (
         <div>
             <div className="card certCard w-100 text-white">
@@ -11,7 +15,7 @@ const PortfolioCard = ({ proyect: { img, title, description, technologies } }) =
                 <div className="card-body d-flex flex-column justify-content-between align-items-center p-2">
                     <div className="mb-3">
                         <p className="card-title mx-2 h5">{title}</p>
-                        <p className="card-subtitle h6">{description}</p>
+                        <p className="card-subtitle mt-3 h6">{t(description)}</p>
                     </div>
                     <footer className="card-text d-flex flex-column flex-sm-row justify-content-between align-items-center w-100 p-3">
                         <ul className="d-flex p-0 m-0 mb-2 mb-sm-0">
@@ -23,9 +27,9 @@ const PortfolioCard = ({ proyect: { img, title, description, technologies } }) =
                                 ))
                             }
                         </ul>
-                        <a href="#" className="text-white">
+                        <a href="" className="text-white" target="_blank">
                             <button type="button" className="btn btn-primary">
-                                <i>Visit Me!</i>
+                                <i>{t('visitMe')}</i>
                             </button>
                         </a>
                     </footer>

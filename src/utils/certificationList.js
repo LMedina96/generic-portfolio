@@ -1,57 +1,43 @@
 export const certificationList = [
     {
-        img: './assets/certificados/diploma-uba.png',
-        title: 'Lic. en Sistemas de Información de las Organizaciones',
-        organization: 'Universidad de Buenos Aires (UBA)',
+        img: './assets/certificados/certificate1.jpg',
+        title: 'Lic. System Information',
+        organization: 'American University (AU)',
         date: 'May. 2022',
-        certLink: '',
     },
 
     {
-        img: './assets/certificados/mysql-udemy.png',
-        title: 'Master SQL: De cero a experto en Bases de Datos',
-        organization: 'Udemy',
+        img: './assets/certificados/certificate2.jpg',
+        title: 'SQL Master',
+        organization: 'Udemol College',
         date: 'May. 2023',
-        certLink: '',
     },
 
     {
-        img: './assets/certificados/powerbi-udemy.png',
+        img: './assets/certificados/certificate3.jpg',
         title: 'Power BI Desktop',
-        organization: 'Udemy',
+        organization: 'Certification Inc',
         date: 'Mar. 2023',
-        certLink: '',
     },
 
     {
-        img: './assets/certificados/administracion-tiempo.png',
-        title: 'Administración del Tiempo',
-        organization: 'Educación BIZ',
+        img: './assets/certificados/certificate4.webp',
+        title: 'Time Administration',
+        organization: 'Bozz Education',
         date: 'Nov. 2020',
-        certLink: '',
     },
 
     {
-        img: './assets/certificados/fundamentos-sql.png',
-        title: 'Fundamentos de Programación con Sql Server 2017',
-        organization: 'Educación IT',
+        img: './assets/certificados/certificate5.jpg',
+        title: 'Develop Fundaments Expert',
+        organization: 'IT Education',
         date: 'Sept. 2020',
-        certLink: '',
     },
 
     {
-        img: './assets/certificados/qlik-analysis.png',
-        title: 'Qlik Set Analysis',
-        organization: 'Qlik',
+        img: './assets/certificados/certificate6.png',
+        title: 'Basic to Expert in SQL',
+        organization: 'SqlSA',
         date: 'Jun. 2020',
-        certLink: '',
-    },
-
-    {
-        img: './assets/certificados/qlikview.png',
-        title: 'QlikView Diseñador y Desarrollador',
-        organization: 'Qlik',
-        date: 'Jul. 2019',
-        certLink: '',
     },
 ]

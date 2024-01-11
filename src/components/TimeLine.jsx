@@ -10,7 +10,7 @@ const TimeLine = () => {
 
     return (
         <>
-            <h2 id='experience' className="m-4">{t('workExperience')}</h2>
+            <h2 id='workExperience' className="m-4">{t('workExperience')}</h2>
             <VerticalTimeline>
                 {
                     jobs.map((job) => (
