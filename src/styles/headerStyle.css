@@ -1,0 +1,8 @@
+.socialList li {
+    padding: 0 6px;
+}
+
+.profileImg {
+    border-radius: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+
+* {
+    font-family: 'Montserrat Alternates', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px !important;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: white !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+hr {
+    color: white !important;
+}
+
+.principal {
+    border-radius: 1rem;
+}
+
+#presentation {
+    color: white;
+}
+
+.returnButton {
+    display: flex !important;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    bottom: 32px;
+    right: 48px;
+    border-radius: 100% !important;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out !important;
+}
+
+.returnButton.visible {
+    opacity: 0.9;
+}
+
+.cc-toggle-container {
+    width: 150px !important;
+}
+
+.vertical-timeline-element-date {
+    color: white !important;
+}

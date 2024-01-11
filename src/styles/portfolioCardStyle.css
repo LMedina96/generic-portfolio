@@ -1,0 +1,30 @@
+button a {
+    text-decoration: none;
+}
+
+.certCard {
+    height: 500px !important;
+}
+
+.certCard:hover {
+    transform: none;
+    box-shadow: 0 0 0 0;
+    cursor: auto;
+}
+
+.certCard img {
+    object-fit: cover !important;
+}
+
+.certCard .card-title {
+    height: auto;
+}
+
+@media (max-width: 600px) {
+
+    .certCard .card-subtitle {
+        max-height: 90px;
+        overflow:scroll;
+    }
+    
+}

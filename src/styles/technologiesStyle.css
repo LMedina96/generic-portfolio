@@ -1,0 +1,21 @@
+.techIcon {
+    transition: transform 1s;
+    color: white;
+}
+
+.techIcon:hover {
+    transform: scale(1.15);
+}
+
+.techIcon p {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.techIcon:hover p {
+    opacity: 1 !important;
+}
+
+.techIcon p{
+    cursor: default;
+}
